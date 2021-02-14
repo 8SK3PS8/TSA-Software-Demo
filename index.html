@@ -7,6 +7,7 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
       <meta name="viewport" content="width=device-width, initial-scale=1">
   
+      
   </head>
   <body>
     <div class="container">
@@ -34,18 +35,20 @@
         <form>
           <div class="form-group">
             <label for="exampleInputEmail1">Food Type</label>
-            <input type="Type of Food" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter type of food">
+            <input type="Type of Food" class="form-control" id="foodType" aria-describedby="emailHelp" placeholder="Enter type of food">
             <small id="emailHelp" class="form-text text-muted">*Enter Food Banks to search for Food Banks</small>
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Address</label>
-            <input type="City/Address" class="form-control" id="exampleInputPassword1" placeholder="City/Address">
+            <input type="City/Address" class="form-control" id="addy" placeholder="City/Address">
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
         </form>
       
 
     </div>
-    <script src="google-custom-search.js"></script>
+
+  <script type="text/javascript" src="script.js"></script>
+      <script type="text/javascript">init();</script>
+      <script src="yelp.js"></script>
 </body>
 </html>
