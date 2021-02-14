@@ -18,5 +18,8 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^11.2.2"
+  },
+  "dependencies": {
+    "yelp-fusion": "^3.0.0"
   }
 }
