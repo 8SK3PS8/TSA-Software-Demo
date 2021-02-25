@@ -17,9 +17,15 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
+    "@types/node": "^14.14.31",
     "electron": "^11.2.2"
   },
   "dependencies": {
+    "google": "^2.1.0",
+    "node-yelp-fusion": "^1.0.4",
+    "require": "^2.4.20",
+    "yelp": "^1.0.2",
+    "yelp-api": "^1.0.3",
     "yelp-fusion": "^3.0.0"
   }
 }
